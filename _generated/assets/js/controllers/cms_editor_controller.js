@@ -81,6 +81,7 @@ enduro_admin_app.controller('cms-editor-controller', ['$scope', '$rootScope', '$
 			content_service.save_content($rootScope.current_page, $scope.context)
 				.then(function () {
 					content_service.update_outstanding_changes()
+					if (window.afterPublish) window.afterPublish()
 					$scope.publishing = false
 				}, function () {
 					console.log('something went wrong with saving the data')

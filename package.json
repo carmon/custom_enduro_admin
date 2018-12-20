@@ -1,13 +1,13 @@
 {
   "name": "enduro_admin",
-  "version": "1.0.72",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Based on enduro_admin (https://github.com/Gottwik/enduro_admin) by Martin Gottweis",
   "main": "assets/vendor/enduro/index.js",
   "scripts": {
     "test": "mocha --recursive --bail && node uitest/enduro_uitest",
     "uitest": ""
   },
-  "author": "Martin Gottweis",
+  "author": "Emiliano Carmona",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.8.0",
@@ -23,7 +23,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gottwik/enduro_admin"
-  },
-  "homepage": "www.endurojs.com"
+    "url": "https://github.com/carmon/custom_enduro_admin"
+  }
 }
